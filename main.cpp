@@ -12,5 +12,6 @@ getline(cin,str);
 if(str=="exit")
 return 0;
 cout<<prefix_to_infix(str);
+break;
 }
 }
